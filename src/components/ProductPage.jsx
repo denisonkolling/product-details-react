@@ -26,13 +26,13 @@ const ProductPage = () => {
         </div>
         <div className='flex flex-col gap-4 lg:w-2/4'>
             <div>
-                <span className=' text-violet-600 font-semibold'>Special Sneaker</span>
-                <h1 className='text-3xl font-bold'>Nike Invincible 3</h1>
+                <span className=' text-violet-600 font-semibold'>Running</span>
+                <h1 className='text-3xl font-bold'>TÊNIS ULTRABOOST LIGHT</h1>
             </div>
             <p className='text-gray-700'>
-            Con un'ammortizzazione incredibile per sostenerti in tutti i tuoi chilometri, Invincible 3 offre un livello di comfort elevatissimo sotto il piede per aiutarti a dare il massimo oggi, domani e oltre. Questo modello incredibilmente elastico e sostenitivo, è pensato per dare il massimo lungo il tuo percorso preferito e fare ritorno a casa carico di energia, in attesa della prossima corsa.
+            Experimente a energia épica do novo Ultraboost Light, nosso Ultraboost mais leve de todos. A mágica está na entressola Light BOOST, uma nova geração do adidas BOOST. Seu design exclusivo de moléculas alcança a espuma BOOST mais leve até hoje e apresenta uma pegada de carbono 10% menor do que os modelos anteriores. Centenas de cápsulas BOOST com energia, amortecimento e conforto de sobra, para que alguns pés possam ter o máximo disso tudo.
             </p>
-            <h6 className='text-2xl font-semibold'>$ 199.00</h6>
+            <h6 className='text-2xl font-semibold'>R$ 1.199.00</h6>
             <div className='flex flex-row items-center gap-12'>
                 <div className='flex flex-row items-center'>
                     <button className='bg-gray-200 py-2 px-5 rounded-lg text-violet-800 text-3xl' onClick={() => setAmount((prev) => prev - 1)}>-</button>

@@ -16,7 +16,7 @@ const ProductPage = () => {
   return (
     <div className='flex flex-col justify-between m-10 lg:flex-row gap-16 lg:items-center'>
         <div className='flex flex-col gap-6 lg:w-2/4'>
-            <img src={activeImg} alt="" className='h-96 aspect-square object-cover rounded-xl'/>
+            <img src={activeImg} alt="" className='aspect-square object-cover rounded-xl'/>
             <div className='flex flex-row justify-between h-24'>
                 <img src={images.img1} alt="" className='w-24 h-24 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img1)}/>
                 <img src={images.img2} alt="" className='w-24 h-24 rounded-md cursor-pointer' onClick={() => setActiveImage(images.img2)}/>
